@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Obshi{
+    margin: 1000px 1000px 1000px 1000px;
+    padding: 100px 100px 100px 100px;
+}
+.doska{
+    height: 2000px;
+    width: 2000px;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+}
+.kate{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.doska>.kate:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
+}
+
+
+.doska2{
+    border: 3px ;
+    height: 2000px;
+    width: 2000px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.kate2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid rgb(0, 0, 0);
+}
+.doska2>.kate2:nth-child(odd) {
+    background-color: rgb(0, 0, 0);
+}
